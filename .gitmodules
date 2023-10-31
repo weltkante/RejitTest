@@ -1,0 +1,4 @@
+[submodule "Engine"]
+	path = Engine
+	url = https://github.com/microsoft/CLRInstrumentationEngine.git
+	branch = release
