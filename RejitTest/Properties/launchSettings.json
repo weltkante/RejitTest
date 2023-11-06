@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "RejitTest": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "COR_ENABLE_PROFILING": "1",
+        "COR_PROFILER": "{324F817A-7420-4E6D-B3C1-143FBED6D855}",
+        "COR_PROFILER_PATH_32": "$(SolutionDir)Engine\\bin\\$(Configuration)\\x86\\MicrosoftInstrumentationEngine_x86.dll",
+        "COR_PROFILER_PATH_64": "$(SolutionDir)Engine\\bin\\$(Configuration)\\x64\\MicrosoftInstrumentationEngine_x64.dll",
+        "CORECLR_ENABLE_PROFILING": "1",
+        "CORECLR_PROFILER": "{324F817A-7420-4E6D-B3C1-143FBED6D855}",
+        "CORECLR_PROFILER_PATH_32": "$(SolutionDir)Engine\\bin\\$(Configuration)\\x86\\MicrosoftInstrumentationEngine_x86.dll",
+        "CORECLR_PROFILER_PATH_64": "$(SolutionDir)Engine\\bin\\$(Configuration)\\x64\\MicrosoftInstrumentationEngine_x64.dll",
+        "MicrosoftInstrumentationEngine_DisableCodeSignatureValidation": "1",
+        "MicrosoftInstrumentationEngine_Host": "{CA487940-57D2-10BF-11B2-A3AD5A13CBC0}",
+        "MicrosoftInstrumentationEngine_HostPath_32": "$(SolutionDir)Engine\\bin\\$(Configuration)\\x86\\Microsoft.InstrumentationEngine.ExtensionsHost_x86.dll",
+        "MicrosoftInstrumentationEngine_HostPath_64": "$(SolutionDir)Engine\\bin\\$(Configuration)\\x64\\Microsoft.InstrumentationEngine.ExtensionsHost_x64.dll",
+        "MicrosoftInstrumentationEngine_ConfigPath32_RejitLib": "config_x86.xml",
+        "MicrosoftInstrumentationEngine_ConfigPath64_RejitLib": "config_x64.xml"
+      },
+      "nativeDebugging": true
+    }
+  }
+}

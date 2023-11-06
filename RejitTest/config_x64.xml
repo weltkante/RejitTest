@@ -1,0 +1,9 @@
+<InstrumentationEngineConfiguration>
+  <InstrumentationMethod>
+    <Name>Sample</Name>
+    <Description>Sample for testing rejit support</Description>
+    <Module>..\RejitLib_x64.dll</Module>
+    <ClassGuid>{A2B3B0A6-3449-41CA-957C-2C160E925715}</ClassGuid>
+    <Priority>50</Priority>
+  </InstrumentationMethod>
+</InstrumentationEngineConfiguration>
